@@ -11,6 +11,7 @@ class CommentsController < ApplicationController
       render 'prototypes/show'
     end
   end
+  
 
 
   private
