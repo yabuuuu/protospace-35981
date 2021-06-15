@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   resources :prototypes  do
    resources :comments, only: :create
   end
+  
+
+  resources :users, only: :show
 end
 
-#resources :rooms, only: [:new, :create, :destroy] do
- # resources :messages, only: [:index, :create]
-#end
